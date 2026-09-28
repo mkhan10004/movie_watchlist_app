@@ -1,17 +1,35 @@
-# movie_watchlist_app
+# Movie Watchlist App
 
-A new Flutter project.
+An undergraduate Flutter project for browsing movie titles and viewing their
+posters, cast, and synopses.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Browse five movies on the home screen.
+- Open a movie details screen by tapping its list item.
+- Pass each movie as a `Movie` model between screens.
+- Load poster images from the bundled `assets/images/` directory.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Run and test
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```sh
+flutter pub get
+flutter run
+flutter test
+```
+
+Build the Android release APK with:
+
+```sh
+flutter build apk --release
+```
+
+The APK is written to `build/app/outputs/flutter-apk/app-release.apk`.
+
+
+
+
+
+
